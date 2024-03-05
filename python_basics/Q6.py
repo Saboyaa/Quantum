@@ -1,0 +1,6 @@
+a1 = eval(input("digite a parte real de c1\n"))
+b1 = eval(input("digite a parte imaginaria de c1\n"))
+a2 = eval(input("digite a parte real de c2\n"))
+b2 = eval(input("digite a parte imaginaria de c2\n"))
+print(f"sqrt({a1}**2 + {b1}**2)*sqrt({a2}**2+{b2}**2)={((a1**2+b1**2)*(a2**2+b2**2))**(1/2)}=sqrt(({a1}**2 + {b1}**2)*({a2}**2+{b2}**2))")
+print(f"sqrt(({a1}+{a2})**2 + ({b1}+{b2})**2)={((a1+a2)**2+(b1+b2)**2)**(1/2)}<={(a1**2+b1**2)**(1/2)+(a2**2+b2**2)**(1/2)}")
